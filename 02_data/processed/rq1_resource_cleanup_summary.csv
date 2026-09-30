@@ -1,0 +1,3 @@
+experiment_id,framework,final_memory_runs,registrations_verified_runs,expected_subscription_count,maximum_observed_subscription_count,post_disposal_resource_failures,checkpoints_with_nonzero_active_resources
+final-20260920172714537-a5a8831b,nestjs,10,10,4,4,0,0
+final-20260920172714537-a5a8831b,cordis,10,10,4,4,0,0

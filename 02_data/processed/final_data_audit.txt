@@ -1,0 +1,11 @@
+Final data audit: PASSED
+Performance experiment: final-20260920172537463-8e9f6c97
+Performance runs: 40/40 completed; 0 failed
+Memory experiment: final-20260920172714537-a5a8831b
+Memory runs: 20/20 completed; 0 failed
+Benchmark Git commit: 5dab909c7ebcc08046e5aa23bac29815b605e48b
+Package-lock SHA-256: 09df3eb847d97ae0852e56f8f0b31c20e0e977a55c4c95b65b0b03b0e87d8263
+Raw input files: 62
+Raw input aggregate SHA-256: 307123daea13d1981afdab6793249025efcf968c8f50405b9520745e553ef64e
+Validation checks: 18
+Warnings: 0

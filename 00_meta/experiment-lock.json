@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "protocolVersion": "final-v1",
+  "status": "final",
+  "frozen": true,
+  "freezeTimestamp": "2026-09-20T20:18:27+03:00",
+  "commonWorkload": {
+    "scenario": "nominal",
+    "payloadSizeBytes": 4096,
+    "subscriptionCount": 4,
+    "eventCount": 32
+  },
+  "performanceSuite": {
+    "frameworks": [
+      "nestjs",
+      "cordis"
+    ],
+    "warmupCycles": 1000,
+    "measuredCycles": 2000,
+    "replicatesPerFramework": 20,
+    "forcedGc": false,
+    "processIsolation": "fresh-node-process-per-independent-replicate",
+    "frameworkOrder": "alternating-by-replicate",
+    "timing": {
+      "operations": [
+        "load",
+        "exercise",
+        "dispose"
+      ],
+      "measuredTotal": "load + exercise + dispose"
+    }
+  },
+  "memorySuite": {
+    "frameworks": [
+      "nestjs",
+      "cordis"
+    ],
+    "memoryWarmupCycles": 100,
+    "lifecycleCycles": 2000,
+    "replicatesPerFramework": 10,
+    "checkpoints": [
+      0,
+      100,
+      250,
+      500,
+      1000,
+      1500,
+      2000
+    ],
+    "forcedGcAtCheckpoints": true,
+    "processIsolation": "fresh-node-process-per-independent-replicate",
+    "frameworkOrder": "alternating-by-replicate"
+  },
+  "rq3": {
+    "countingRule": "rq3-sloc-v2",
+    "frozen": true,
+    "countingMarkersFrozen": true,
+    "metricDefinitionsFrozen": true
+  },
+  "softwareVersions": {
+    "node": "24.18.0",
+    "@nestjs/common": "11.2.5",
+    "@nestjs/core": "11.2.5",
+    "cordis": "3.18.1",
+    "typescript": "5.9.3",
+    "reflect-metadata": "0.2.2",
+    "rxjs": "7.8.2"
+  },
+  "provenance": {
+    "gitCommit": "recorded-by-each-final-run-manifest",
+    "workingTreeDirty": "recorded-by-each-final-run-manifest",
+    "packageLockSha256": "recorded-by-each-final-run-manifest"
+  },
+  "analysisDatasetPolicy": {
+    "includePhase": "final",
+    "outputRoot": "02_data/raw",
+    "exclude": [
+      "schema-v1",
+      "pilot",
+      "exploratory",
+      "diagnostic"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 2,
+  "analysisScriptVersion": "1.1.0",
+  "analysisStartedAt": "2026-09-20T20:25:14.542393+00:00",
+  "analysisCompletedAt": "2026-09-20T20:25:18.005033+00:00",
+  "analysisSourceGitCommit": "d2fd195b4a46c1a1200bd2b42d789d3b9c9730d0",
+  "analysisSourceWorkingTreeDirty": false,
+  "inputExperimentIds": {
+    "performance": "final-20260920172537463-8e9f6c97",
+    "memory": "final-20260920172714537-a5a8831b"
+  },
+  "inputPaths": {
+    "performance": "02_data/raw/final/schema-v2/final-20260920172537463-8e9f6c97",
+    "memory": "02_data/raw/final/schema-v2/final-20260920172714537-a5a8831b"
+  },
+  "rawInputAggregateSha256": "307123daea13d1981afdab6793249025efcf968c8f50405b9520745e553ef64e",
+  "benchmarkGitCommit": "5dab909c7ebcc08046e5aa23bac29815b605e48b",
+  "benchmarkTag": "thesis-benchmark-final-v1",
+  "benchmarkTagResolvedCommit": "5dab909c7ebcc08046e5aa23bac29815b605e48b",
+  "benchmarkTagMatchesFrozenCommit": true,
+  "benchmarkPackageLockSha256": "09df3eb847d97ae0852e56f8f0b31c20e0e977a55c4c95b65b0b03b0e87d8263",
+  "generatedProcessedFiles": [
+    "02_data/processed/final_data_audit.json",
+    "02_data/processed/final_data_audit.txt",
+    "02_data/processed/rq2_replicate_summary.csv",
+    "02_data/processed/rq2_framework_summary.csv",
+    "02_data/processed/rq2_paired_comparison.csv",
+    "02_data/processed/rq2_stability_summary.csv",
+    "02_data/processed/rq1_checkpoint_deltas.csv",
+    "02_data/processed/rq1_memory_summary.csv",
+    "02_data/processed/rq1_resource_cleanup_summary.csv",
+    "02_data/processed/rq1_cycle2000_memory_comparison.csv",
+    "02_data/processed/rq3_final_metrics.json",
+    "02_data/processed/rq3_final_metrics.csv",
+    "02_data/processed/final_results_facts.md",
+    "02_data/processed/analysis_manifest.json"
+  ],
+  "generatedFigures": [
+    "02_data/figures/rq2_total_latency.pdf",
+    "02_data/figures/rq2_total_latency.png",
+    "02_data/figures/rq2_operation_latency.pdf",
+    "02_data/figures/rq2_operation_latency.png",
+    "02_data/figures/rq1_heap_used_delta.pdf",
+    "02_data/figures/rq1_heap_used_delta.png"
+  ],
+  "rq3RuleVersion": "rq3-sloc-v2",
+  "rq3FrozenSourceGuard": {
+    "status": "passed",
+    "benchmarkGitCommit": "5dab909c7ebcc08046e5aa23bac29815b605e48b",
+    "guardedPaths": [
+      "01_testbed/nestjs-app/nestjs-adapter.ts",
+      "01_testbed/cordis-app/cordis-adapter.ts",
+      "01_testbed/rq3/count.ts",
+      "01_testbed/spec/rq3_counting_rule.md"
+    ]
+  },
+  "rq2PointJitter": {
+    "method": "fixed-seed pseudo-random horizontal jitter independent of latency values",
+    "seed": 20260920
+  },
+  "statisticalUnit": "fresh Node.js process replicate",
+  "diagnosticDataIncludedInPrimaryStatistics": false,
+  "pythonVersion": "3.14.6",
+  "libraryVersions": {
+    "pandas": "3.0.6",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "spatiotemporal-composability-testbed",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Headless Cordis and NestJS lifecycle benchmark testbed",
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "node -e \"require('fs').rmSync('dist', { recursive: true, force: true })\"",
+    "test": "npm run build && node --test dist/tests/*.test.js",
+    "pilot": "npm run build && node dist/runner/cli.js pilot",
+    "rq3:count": "npm run build && node dist/rq3/count.js",
+    "benchmark:performance": "npm run build && node dist/runner/cli.js performance",
+    "benchmark:memory": "npm run build && node dist/runner/cli.js memory",
+    "diagnostic:heap": "npm run build && node --expose-gc dist/diagnostic/heap.js"
+  },
+  "dependencies": {
+    "@nestjs/common": "11.2.5",
+    "@nestjs/core": "11.2.5",
+    "cordis": "3.18.1",
+    "reflect-metadata": "0.2.2",
+    "rxjs": "7.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "24.13.5",
+    "typescript": "5.9.3"
+  }
+}

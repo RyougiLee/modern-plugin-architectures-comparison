@@ -1,0 +1,11 @@
+01_testbed/node_modules/
+01_testbed/dist/
+01_testbed/results/*
+!01_testbed/results/.gitkeep
+
+02_data/raw/*
+!02_data/raw/.gitkeep
+
+__pycache__/
+*.pyc
+.analysis-venv/

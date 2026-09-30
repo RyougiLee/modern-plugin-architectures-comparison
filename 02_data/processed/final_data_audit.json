@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "validationStatus": "passed",
+  "performanceExperimentId": "final-20260920172537463-8e9f6c97",
+  "memoryExperimentId": "final-20260920172714537-a5a8831b",
+  "gitCommit": "5dab909c7ebcc08046e5aa23bac29815b605e48b",
+  "packageLockSha256": "09df3eb847d97ae0852e56f8f0b31c20e0e977a55c4c95b65b0b03b0e87d8263",
+  "rawInputFileCount": 62,
+  "rawInputAggregateSha256": "307123daea13d1981afdab6793249025efcf968c8f50405b9520745e553ef64e",
+  "performanceBatch": {
+    "planned": 40,
+    "completed": 40,
+    "failed": 0,
+    "incomplete": 0,
+    "frameworkRunCounts": {
+      "nestjs": 20,
+      "cordis": 20
+    }
+  },
+  "memoryBatch": {
+    "planned": 20,
+    "completed": 20,
+    "failed": 0,
+    "incomplete": 0,
+    "frameworkRunCounts": {
+      "nestjs": 10,
+      "cordis": 10
+    }
+  },
+  "environment": {
+    "nodeVersion": "v24.18.0",
+    "packageVersions": {
+      "@nestjs/common": "11.2.5",
+      "@nestjs/core": "11.2.5",
+      "cordis": "3.18.1",
+      "typescript": "5.9.3",
+      "reflect-metadata": "0.2.2",
+      "rxjs": "7.8.2"
+    },
+    "operatingSystem": {
+      "platform": "win32",
+      "release": "10.0.26200",
+      "architecture": "x64",
+      "cpuModel": "12th Gen Intel(R) Core(TM) i7-12700H",
+      "logicalCpuCount": 20
+    }
+  },
+  "validationChecksPerformed": [
+    "allowlisted experiment paths only",
+    "batch phase, status, and run counts",
+    "framework composition and exact replicate coverage",
+    "run-to-batch identity and artifact path containment",
+    "final workload and suite parameters",
+    "performance record count and cycle coverage",
+    "performance delivery count and timing-sum identity",
+    "performance cross-framework checksum equivalence by replicate and cycle",
+    "recorded stability block coverage and medians",
+    "memory checkpoint coverage and forced-GC flags",
+    "memory checkpoint resource-ledger zero state",
+    "memory diagnostic deltas against checkpoint 0",
+    "run-level checksum, registration, subscription, and cleanup validation",
+    "Git commit and clean benchmark working tree",
+    "package-lock SHA-256 consistency",
+    "Node.js and framework/package versions",
+    "CPU, OS, and architecture consistency",
+    "expected artifact set without missing or additional run JSON"
+  ],
+  "warnings": []
+}

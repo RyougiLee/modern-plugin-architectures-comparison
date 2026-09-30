@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "countingRuleVersion": "rq3-sloc-v2",
+  "ruleDocument": "spec/rq3_counting_rule.md",
+  "frameworks": {
+    "nestjs": {
+      "pluginLifecycleSloc": 26,
+      "frameworkSpecificLifecycleOrchestrationSloc": 48,
+      "cleanupSloc": 22,
+      "nominalPluginCleanupActions": 3,
+      "hostShutdownCleanupActions": 2,
+      "failureRecoveryCleanupActions": 0,
+      "countedFiles": [
+        "nestjs-app/nestjs-adapter.ts"
+      ]
+    },
+    "cordis": {
+      "pluginLifecycleSloc": 15,
+      "frameworkSpecificLifecycleOrchestrationSloc": 53,
+      "cleanupSloc": 17,
+      "nominalPluginCleanupActions": 2,
+      "hostShutdownCleanupActions": 2,
+      "failureRecoveryCleanupActions": 1,
+      "countedFiles": [
+        "cordis-app/cordis-adapter.ts"
+      ]
+    }
+  }
+}

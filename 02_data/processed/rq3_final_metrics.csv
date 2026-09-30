@@ -1,0 +1,3 @@
+rule_version,framework,plugin_lifecycle_sloc,framework_lifecycle_orchestration_sloc,cleanup_sloc,nominal_plugin_cleanup_actions,host_shutdown_cleanup_actions,failure_recovery_cleanup_actions
+rq3-sloc-v2,nestjs,26,48,22,3,2,0
+rq3-sloc-v2,cordis,15,53,17,2,2,1
