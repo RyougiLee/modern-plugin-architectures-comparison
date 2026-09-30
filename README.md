@@ -27,7 +27,7 @@ This public repository is a curated reproducibility package containing:
 - RQ3 counting logic;
 - validation and analysis scripts.
 
-Files not required for reproduction, such as thesis drafts, literature notes, Turnitin reports, school documents, private development history, and temporary experiment artefacts, are intentionally excluded.
+Files not required for reproduction, such as thesis drafts, literature notes, school documents, private development history, and temporary experiment artefacts, are intentionally excluded.
 
 ---
 
@@ -487,37 +487,6 @@ package-lock.json
 ```
 
 The public repository preserves the artefacts needed to inspect this chain even though its Git history is separate from the original private development repository.
-
----
-
-## Thesis
-
-The accompanying thesis is:
-
-> Li, Z. (2026). *Evaluating Spatio-Temporal Composability in Modern Plugin Architectures: A Comparative Study of Cordis and NestJS*. Bachelor’s thesis, Metropolia University of Applied Sciences.
-
-If the thesis is publicly available, its permanent publication URL can be added here:
-
-```text
-Thesis:
-<ADD PERMANENT THESIS URL AFTER PUBLICATION>
-```
-
----
-
-## Citation
-
-When referring to the experimental artefact, please identify both this public repository and the original frozen benchmark revision:
-
-```text
-Original benchmark revision:
-5dab909c7ebcc08046e5aa23bac29815b605e48b
-
-Original benchmark tag:
-thesis-benchmark-final-v1
-```
-
-If a GitHub Release is created for this public artefact, cite the release version in addition to the original benchmark revision.
 
 ---
 
